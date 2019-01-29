@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32202" started-at="2019-01-28T11:04:22Z" finished-at="2019-01-28T11:04:54Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="12135" started-at="2019-01-28T11:04:22Z" finished-at="2019-01-28T11:04:34Z">
+      <class name="automationFramework.MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:automationFramework.MultiBrowser@2f7a2457]" name="beforeTest" is-config="true" duration-ms="7837" started-at="2019-01-28T11:04:22Z" finished-at="2019-01-28T11:04:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:automationFramework.MultiBrowser@2f7a2457]" name="login" duration-ms="3119" started-at="2019-01-28T11:04:30Z" finished-at="2019-01-28T11:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.MultiBrowser@2f7a2457]" name="afterTest" is-config="true" duration-ms="1161" started-at="2019-01-28T11:04:33Z" finished-at="2019-01-28T11:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- automationFramework.MultiBrowser -->
+    </test> <!-- Chrome -->
+    <test name="Firefox" duration-ms="13228" started-at="2019-01-28T11:04:34Z" finished-at="2019-01-28T11:04:48Z">
+      <class name="automationFramework.MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:automationFramework.MultiBrowser@1324409e]" name="beforeTest" is-config="true" duration-ms="10656" started-at="2019-01-28T11:04:34Z" finished-at="2019-01-28T11:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:automationFramework.MultiBrowser@1324409e]" name="login" duration-ms="1524" started-at="2019-01-28T11:04:45Z" finished-at="2019-01-28T11:04:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.MultiBrowser@1324409e]" name="afterTest" is-config="true" duration-ms="1044" started-at="2019-01-28T11:04:47Z" finished-at="2019-01-28T11:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- automationFramework.MultiBrowser -->
+    </test> <!-- Firefox -->
+    <test name="IE" duration-ms="6786" started-at="2019-01-28T11:04:48Z" finished-at="2019-01-28T11:04:54Z">
+      <class name="automationFramework.MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:automationFramework.MultiBrowser@5d624da6]" name="beforeTest" is-config="true" duration-ms="3901" started-at="2019-01-28T11:04:48Z" finished-at="2019-01-28T11:04:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:automationFramework.MultiBrowser@5d624da6]" name="login" duration-ms="1660" started-at="2019-01-28T11:04:52Z" finished-at="2019-01-28T11:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.MultiBrowser@5d624da6]" name="afterTest" is-config="true" duration-ms="1223" started-at="2019-01-28T11:04:53Z" finished-at="2019-01-28T11:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- automationFramework.MultiBrowser -->
+    </test> <!-- IE -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="19477" started-at="2019-01-28T11:04:54Z" finished-at="2019-01-28T11:05:14Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="5237" started-at="2019-01-28T11:04:54Z" finished-at="2019-01-28T11:05:00Z">
+      <class name="automationFramework.MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:automationFramework.MultiBrowser@614c5515]" name="beforeTest" is-config="true" duration-ms="2528" started-at="2019-01-28T11:04:54Z" finished-at="2019-01-28T11:04:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:automationFramework.MultiBrowser@614c5515]" name="login" duration-ms="2084" started-at="2019-01-28T11:04:57Z" finished-at="2019-01-28T11:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.MultiBrowser@614c5515]" name="afterTest" is-config="true" duration-ms="623" started-at="2019-01-28T11:04:59Z" finished-at="2019-01-28T11:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- automationFramework.MultiBrowser -->
+    </test> <!-- Chrome -->
+    <test name="Firefox" duration-ms="7065" started-at="2019-01-28T11:05:00Z" finished-at="2019-01-28T11:05:07Z">
+      <class name="automationFramework.MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:automationFramework.MultiBrowser@4157f54e]" name="beforeTest" is-config="true" duration-ms="3964" started-at="2019-01-28T11:05:00Z" finished-at="2019-01-28T11:05:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:automationFramework.MultiBrowser@4157f54e]" name="login" duration-ms="1886" started-at="2019-01-28T11:05:04Z" finished-at="2019-01-28T11:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.MultiBrowser@4157f54e]" name="afterTest" is-config="true" duration-ms="1214" started-at="2019-01-28T11:05:06Z" finished-at="2019-01-28T11:05:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- automationFramework.MultiBrowser -->
+    </test> <!-- Firefox -->
+    <test name="IE" duration-ms="7160" started-at="2019-01-28T11:05:07Z" finished-at="2019-01-28T11:05:14Z">
+      <class name="automationFramework.MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:automationFramework.MultiBrowser@6615435c]" name="beforeTest" is-config="true" duration-ms="3890" started-at="2019-01-28T11:05:07Z" finished-at="2019-01-28T11:05:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:automationFramework.MultiBrowser@6615435c]" name="login" duration-ms="1961" started-at="2019-01-28T11:05:11Z" finished-at="2019-01-28T11:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.MultiBrowser@6615435c]" name="afterTest" is-config="true" duration-ms="1293" started-at="2019-01-28T11:05:13Z" finished-at="2019-01-28T11:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- automationFramework.MultiBrowser -->
+    </test> <!-- IE -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="automationFramework.MultiBrowser">
+        <methods>
+          <include name="login"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- automationFramework.MultiBrowser -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test thread-count="5" name="Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="automationFramework.MultiBrowser">
+        <methods>
+          <include name="login"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- automationFramework.MultiBrowser -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+  <test thread-count="5" name="IE(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="automationFramework.MultiBrowser">
+        <methods>
+          <include name="login"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- automationFramework.MultiBrowser -->
+    </classes>
+  </test> <!-- IE(failed) -->
+</suite> <!-- Failed suite [Suite] -->
