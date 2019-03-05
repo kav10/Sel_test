@@ -1,5 +1,5 @@
 package automationFramework;
-
+hi , hello 
 import java.security.KeyStore.TrustedCertificateEntry;
 import java.util.concurrent.TimeUnit;
 
@@ -26,7 +26,6 @@ public class MultiBrowser {
 	public WebDriver driver;
 
   
-
   
 
   // Passing Browser parameter from TestNG xml
